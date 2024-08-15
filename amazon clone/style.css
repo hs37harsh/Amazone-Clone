@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    border:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{background-color: #0f1111;
+height: 60px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.nav-logo{
+    width: 100px;
+    height: 50px;
+}
+.logo{
+    background-image: url(https://www.shutterstock.com/image-vector/chattogram-bangladesh-april-24-2023-260nw-2292992631.jpg);
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85em;
+    margin-left: 12px;
+}
+.add-sec{
+    margin-left: 3px;
+}
+.add-logo{
+    display: flex;
+    align-items: center;
+}
+
+.option{
+    width: 50px;
+    border-bottom-left-radius: 3.5px;
+    border-top-left-radius: 3.5px;
+    border: none;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+.nav-search{
+    display: flex;
+    width: 600px;
+    background-color: orange;
+    
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    
+}
+.nav-search:hover{
+    border: 3px solid orange;
+    border-bottom-left-radius: 3.5px;
+    border-top-left-radius: 3.5px;
+}
+.search{
+    width: 100%;
+    border: none;
+    font-size: 1em;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    background-color: rgb(252, 193, 83);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+    color: black;
+}
+span{
+    font-size: .78em;
+}
+.sign{
+    font-size: 1em;
+    font-weight: 750;
+}
+.nav-cart i{
+    font-size: 2.3em;
+}
+
+.nav-cart{
+    font-size: .8em;
+    font-weight: 700;
+}
+
+/* PANEL */
+
+.panel{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+
+}
+.panel-option{
+    width: 70%;
+    font-size: 0.9em;
+    font-weight: 500;
+    justify-content: space-evenly;
+    
+
+}
+.panel-option p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.live{
+    margin-left: 25px;
+}
+.icon-panel i{
+    font-weight: 700;
+    font-size: 1.4em;
+}
+.icon-panel {
+    font-weight: 700;
+    font-size: 1em;
+}
+.day{
+    color: #f3f3f3c3;
+}
+
+.shop{
+    color:#f3f3f3d7;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 1.4em;
+}
+
+/* hero */
+.hero{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Jupiter23/Homepage/Phase3/J23_P3A_PC_NTA_Today_Hero_2X_EN._CB575585158_.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+/* shop-sec */
+.shop-sec1{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rg(209, 57, 166); */
+
+}
+.box{
+    /* border: 2px solid black; */
+    width: 24%;
+    height: 60vh;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+}
+.box5{
+    /* border: 2px solid black; */
+    width: 28%;
+    height: 60vh;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+    
+}
+
+
+.shop-sec2{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(200, 57, 189); */
+    margin-top: 30px;
+
+}
+.menu{
+    background-color: rgb(200, 57, 166) ;
+    width: 100%;
+height: 100%;}
+
+.border1:hover{
+    border: 2px solid black;
+}
+
+.shoes{
+ height: 46vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+.see{
+    color: #007185;
+    text-decoration: none;
+    
+}
+.box-content{
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+.box-4{
+    width: 40%;
+    height: 20vh;
+    position: relative;
+    height: 90px;
+    margin-top: 2vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box-content1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px 0px 10px;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+
+}
+.more{
+    position: absolute;
+    margin-top: 16vh;
+    font-size: 0.8em;
+}
+.c{
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    
+
+
+}
+.gap{
+
+    margin-top: 9vh;
+}
+.see-more{
+    margin-top: 8vh;
+    /* position: absolute; */
+    margin-right: 30vh;
+    text-decoration: none;
+    color: #007185;
+}
+.row-box{
+    width: 95%;
+    height: 45vh;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/AmazonPay/Jupiter23/Wave3/Train_GW_editorial_1500x323._CB575359240_.jpg);
+    background-size: cover;
+    position: absolute;
+    margin-top: 2.5vh;
+    margin-left: 3vh;
+}
+.row-box1{
+    width: 80%;
+    height: 44vh;
+    background-size: cover;
+    position: absolute;
+    margin-top: 2.vh;
+    margin-left: 18vh;
+}
+
+    .row{
+        width: 98%;
+        height: 50vh;
+        background-color: white;}
+        .row1{
+            width: 98%;
+            height: 45vh;
+            }
+.shop-sec3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(200, 57, 189);
+    margin-top: 30px;
+    height:100vh; 
+    flex-wrap: wrap;
+    width:100% ;
+
+}
+.shop-sec4{
+    /* display: flex; */
+    justify-content: space-evenly;
+    background-color: rgb(200, 57, 189);
+    margin-top: 30px;
+    height:100vh; 
+    width:100% ;
+
+}
+.shop-sec5{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(200, 57, 189);
+    margin-top: 30px;
+    height:90vh; 
+    width:100% ;
+
+}
+
+.box6{
+    /* border: 2px solid black; */
+    width: 98%;
+    height: 40vh;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 33vh;position: relative;
+    
+}
+
+.mobile{
+    width: 15%;
+    height: 20vh;
+    background-size: cover;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    margin-top: 5vh;
+    
+}
+
+.mobile-sec{
+    margin-left: 5vh;
+    display: flex;
+    font-size: 2.1em;
+}
+.more1{
+    font-size: 1.1em;
+    margin-top: 21.5vh;
+    text-align: center;
+}
+.all{
+    margin-left:68vh;
+    margin-top: -3.5vh;
+    font-size: 1.2em;
+    color: #007185;
+}
+.foot-panel1{
+    align-items: center;
+    color: white;
+    background-color: #37475a;
+    justify-content: center;
+    font-size: 0.86em;
+    height: 7vh;
+    display: flex;
+    margin-top: 12px;
+    
+
+}
+
+.foot-panel2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    height: 300px;
+}
+ul{
+    margin-top: 15px;
+}
+
+ ul a{
+display: block;
+color: #dadada;
+margin-top: 10px;
+font-size: 0.85em;
+
+}
+ul h2{
+    color: white;
+    font-size: 1em;
+}
+
+.foot-panel3{
+    width: 100%;
+    height: 25vh;
+    background-color: #222f3d;
+    border-top: 0.1px solid #9c9c9c;
+
+
+}
+.count {
+    display: flex;
+    justify-content: space-between;
+    color: #cccccc;
+    margin-top: 6vh;
+    text-align: center;
+    width: 60%;
+    /* align-items: center; */
+    margin-left: 40vh;
+    font-size: 0.85em;
+    flex-wrap: wrap;
+    height: 10vh;
+}
+.logo2{ background-image: url(ama-removebg-preview\ \(2\).png);
+    width: 10%;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 80vh;
+    margin-top: 2vh;}
+
+    .lang{
+        border: 1px solid #9c9c9c;
+        width: 9%;
+        height: 5vh;
+        margin-top:-6.5vh ;
+        margin-left: 105vh;
+    }
+
+    .lang-icon{
+        margin-left: 2vh;
+        margin-top: 1vh;
+    }.a{
+        text-decoration: none;
+        margin-bottom: -10vh;
+        position: absolute;
+    }
+    .foot-panel4{
+        width: 100%;
+        height: 40vh;
+        background-color:#131A22;
+        
+    }
+    .page1{
+        display: flex;
+        color:#cccccc;
+        justify-content: space-evenly;
+        font-size: 2vh;
+        /* margin-top: 10px; */
+    }
+    ul{
+        margin-top: 25px;
+    }
+    .page2{
+        display: flex;
+        color:#cccccc;
+        justify-content: space-evenly;
+        font-size: 2vh;
+        margin-top: 10px;
+        margin-left: 7vh;
+    }
+
+
+
+    .foot-panel5{
+        width: 100%;
+        height: 10vh;
+        background-color:#131A22;
+        color: #dadada
+;text-align: center;
+font-size: 0.8em;
+
+    }
+
+
+    .log{
+        width: 100%;
+        height: 10vh;
+        color: #dadada;
+        text-align: center;
+        font-size: 0.8em;
+        margin-top:5vh;
+    }
+
+    .sign{
+        width: 15%;
+        height: 4vh;
+        color:black;
+            text-align: center;
+        font-size: 0.8em;
+        border: 2px solid rgb(143, 95, 6);
+        background-color:rgb(224, 158, 36);
+        justify-content: center;
+        margin-left: 5vh;
+        /* align-items: center; */
+        margin-bottom:100vh;
+        position: absolute;
+    }
+
+    .new{
+        width: 100%;
+        height: 10vh;
+        color:black;
+text-align: center;
+font-size: 0.8em;
+/* margin-left: 3vh; */
+margin-top: 5vh;
+    }
